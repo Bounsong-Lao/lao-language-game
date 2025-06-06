@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="lo">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ຫຼີ້ນເກມ ພາສາລາວ</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>ຫຼີ້ນເກມ ພາສາລາວ</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">ໜ້າຫຼັກ</a></li>
+                <li><a href="#game-section">ເລີ່ມຫຼິ້ນ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="container">
+            <h2>ຍິນດີຕ້ອນຮັບສູ່ເກມພາສາລາວ!</h2>
+            <p>ມາຮຽນຮູ້ພາສາລາວແບບມ່ວນໆ ຜ່ານການຫຼີ້ນເກມຈັບຄູ່ຄຳສັບ ແລະ ຮູບພາບ.</p>
+            <p>ເກມນີ້ຈະຊ່ວຍໃຫ້ທ່ານຈົດຈຳພະຍັນຊະນະ, ສະຫຼະ ແລະ ຄຳສັບພື້ນຖານໃນພາສາລາວໄດ້ດີຂຶ້ນ.</p>
+            <button id="start-game-btn" class="btn">ເລີ່ມເກມ</button>
+        </section>
+
+        <section id="game-section" class="container game-area" style="display: none;">
+            <h2>ເກມຈັບຄູ່ຄຳສັບ</h2>
+            <div id="game-board">
+                <div id="left-cards" class="card-column">
+                    </div>
+                <div id="right-cards" class="card-column">
+                    </div>
+            </div>
+            <p id="game-feedback"></p>
+            <button id="reset-game-btn" class="btn" style="display: none;">ຫຼິ້ນໃໝ່</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 ເກມພາສາລາວ. ສະຫງວນລິຂະສິດ.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
